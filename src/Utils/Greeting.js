@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 const Greeting = () => {
   const handleCreateButtonClick = () => {
     // Redirect to the deployed Todo app URL
-    window.location.href = "https://master--todoaayu.netlify.app/";
+    window.location.href = "https://todoaayu.netlify.app/";
   };
 
   const [currentTime, setCurrentTime] = useState(new Date());
