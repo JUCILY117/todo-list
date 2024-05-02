@@ -8,11 +8,8 @@ const AddTodo = () => {
     useContext(DataContext);
 
   return (
-<<<<<<< HEAD
     <div className=" w-full relative min-h-screen bg-gradient-to-r from-blue-400 to-blue-200">
-=======
     <div className=" w-full relative min-h-screen bg-gradient-to-r from-white-100">
->>>>>>> 3f7342403c298159c65d4da3760c2faedfb6a2cc
       <div className=" max-w-[1300px] px-10 max-md:px-5 m-auto">
         <div>
           <TopNav title={"Add New Todo"}/>
