@@ -60,7 +60,7 @@ const Greeting = () => {
         <h1 className=" text-blue-900 font-bold flex items-center gap-1 text-4xl max-m:text-lg mb-10 mt-2"><span className="max-lg:text-3xl">&#128075;</span>{greeting}</h1>
 
         <div>
-        <button onClick={handleCreateButtonClick} style ={{position: 'fixed', backgroundColor: 'blue', color: 'white', padding: '1rem 2rem', marginLeft: '10rem', borderRadius: '2rem', cursor: 'pointer', border: 'none'}}>Back To Home</button>
+        <button onClick={handleCreateButtonClick} style ={{position: 'fixed', backgroundColor: 'blue', color: 'white', padding: '1rem 2rem', marginLeft: '10rem', borderRadius: '2rem', cursor: 'pointer', border: 'none'}}>Back</button>
           <p className=" text-blue-900 font-semibold text-lg max-sm:text-sm">{today}</p>
           <p className="text-blue-900 font-semibold text-lg max-sm:text-sm">
             {hours < 10 ? `0${hours}` : hours}:
