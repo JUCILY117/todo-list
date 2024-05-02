@@ -28,7 +28,6 @@ const Home = () => {
 
   return (
     <div className=" w-full relative min-h-screen pb-60 bg-gradient-to-r from-blue-400 to-blue-200">
-    <div className=" w-full relative min-h-screen pb-60 bg-gradient-to-r from-white-100">
       <div className=" max-w-[1300px] px-3 m-auto">
         <div>
           <Greeting />
