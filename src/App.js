@@ -17,7 +17,7 @@ const App = () => {
     setTimeout(() => {
       console.log("App initialization complete.");
       setIsAppInitialized(true);
-    }, 2000); // Simulated delay of 2 seconds
+    }, 3000); // Simulated delay of 2 seconds
   }, []);
 
   return (
