@@ -14,7 +14,7 @@ const TaskDetails = () => {
   }
 
   return (
-    <div className=" w-full relative min-h-screen bg-gradient-to-r from-blue-300 to-blue-200">
+    <div className=" w-full relative min-h-screen bg-gradient-to-r from-blue-400 to-blue-200">
       <div className=" max-w-[1300px] px-10 max-md:px-5 m-auto">
         <div>
           <TopNav title={"Task Details"} />

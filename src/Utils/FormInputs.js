@@ -187,9 +187,9 @@ const FormInputs = ({
       <form onSubmit={handleSubmit} className="max-w-[600px] m-auto">
         <div>
           <label
-            className={`text-blue-900 text-sm max-sm:text-xs ${
-              nameCountError ? "text-red-500" : "text-purple-200"
-            } text-purple-200`}
+            className={`text-m max-sm:text-xs ${
+              nameCountError ? "text-red-500" : "text-black-900"
+            } text-black-900`}
             htmlFor="taskName"
           >
             Task Name
@@ -211,9 +211,9 @@ const FormInputs = ({
         </div>
         <div className=" mt-7 max-sm:mt-4">
           <label
-            className={`text-blue-900 text-sm max-sm:text-xs ${
-              descriptionCountError ? "text-red-500" : "text-purple-200"
-            } text-purple-200`}
+            className={`text-m max-sm:text-xs ${
+              descriptionCountError ? "text-red-500" : "text-black-900"
+            } text-black-900`}
             htmlFor="taskDescription"
           >
             Task Description
@@ -233,7 +233,7 @@ const FormInputs = ({
         </div>
 
         <div ref={catagoryRef} className=" mt-7 max-sm:mt-4">
-          <label className="text-blue-900 text-sm max-sm:text-xs text-purple-200">Category</label>
+          <label className="text-m max-sm:text-xs text-black-900">Category</label>
 
           <div
             onClick={() => setCategoryOpen(!CategoryOpen)}

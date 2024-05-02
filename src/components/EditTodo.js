@@ -178,7 +178,7 @@ const EditTodo = () => {
   };
 
   return (
-    <div className=" w-full relative min-h-screen bg-gradient-to-r from-blue-300 to-blue-200">
+    <div className=" w-full relative min-h-screen bg-gradient-to-r from-blue-400 to-blue-200">
       <div className=" max-w-[1300px] px-10 max-md:px-5 m-auto">
         <div>
           <TopNav title={"Edit Todo"} />
@@ -187,9 +187,9 @@ const EditTodo = () => {
             <form className="max-w-[600px] m-auto">
               <div>
                 <label
-                  className={`text-blue-900 text-sm max-sm:text-xs ${
-                    nameCountError ? "text-red-500" : "text-purple-200"
-                  } text-purple-200`}
+                  className={`text-m max-sm:text-xs ${
+                    nameCountError ? "text-red-500" : "text-black-900"
+                  } text-black-900`}
                   htmlFor="taskName"
                 >
                   Edit Name
@@ -211,9 +211,9 @@ const EditTodo = () => {
               </div>
               <div className=" mt-7 max-sm:mt-4">
                 <label
-                  className={`text-blue-900 text-sm max-sm:text-xs ${
-                    descriptionCountError ? "text-red-500" : "text-purple-200"
-                  } text-purple-200`}
+                  className={`text-m max-sm:text-xs ${
+                    descriptionCountError ? "text-red-500" : "text-black-900"
+                  } text-black-900`}
                   htmlFor="taskDescription"
                 >
                   Task Description
@@ -235,7 +235,7 @@ const EditTodo = () => {
               </div>
 
               <div ref={catagoryRef} className=" mt-7 max-sm:mt-4">
-                <label className="text-blue-900 text-sm text-blue-200">Category</label>
+                <label className="text-m text-black-900">Category</label>
 
                 <div
                   onClick={() => setCategoryOpen(!CategoryOpen)}
